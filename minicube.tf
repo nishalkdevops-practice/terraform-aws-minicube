@@ -4,9 +4,9 @@ module "minikube" {
   aws_region    = "us-east-1"
   cluster_name  = "roboshop"
   aws_instance_type = "t3.medium"
-  # ~ --> home dir, you should have terraform.pub in your home
-  ssh_public_key = "~/terraform.pub" # replace with your public key name and path
-  aws_subnet_id = "subnet-0490cab6f828612f5" # any public subnet in any VPC, I am using default VPC subnet
+  # ~ --> home dir, you should have nishal.pub in your home
+  ssh_public_key = "~/nishal.pub" # replace with your public key name and path
+  aws_subnet_id = "subnet-05153d13c46b51ef8" # any public subnet in any VPC, I am using default VPC subnet
   hosted_zone = "nishalkdevops.online" # replace with your domain
   hosted_zone_private = false
 
